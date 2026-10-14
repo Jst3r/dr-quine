@@ -22,7 +22,6 @@ clean:
 	rm -f $(OBJS)
  
 fclean: clean
-	rm -f $(NAMES)
+	rm -f $(NAMES) Grace_kid.c Sully_*
  
 re: fclean all
- 
